@@ -1,0 +1,276 @@
+
+
+/* Positioning Absolute position takes elements out of flow. Position Absolute item will look for something that has position relative to whats */
+/* its inside of. If there is no relative in the parent element then it will default to the (parent/grandparent) body element */
+/* Absolute goes out of the flow of the document and goes underneath everything else */
+
+/* title Section*/
+
+#title {
+
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#title .container-fluid {
+
+  padding: 3% 15% 7%;
+}
+
+body {
+
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+
+.big-heading {
+
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading: {
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+
+  padding: 0 0 72px;
+}
+
+
+.navbar-brand {
+
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+
+}
+
+/* containers */
+
+.container-fluid {
+
+  padding: 3% 15% 7%;
+
+}
+
+/* phone image  */
+
+
+h1 {
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+/* download Buttons */
+
+.download-button {
+
+    margin: 5% 3% 5% 0;
+}
+
+/* h3 { */
+
+  /* font-family: "Montserrat"; */
+  /* font-size: 1.5rem; */
+  /* font-weight: 900; */
+/* } */
+
+p {
+
+  color: #8f8f8f;
+}
+
+
+/* section features icons */
+
+.icons {
+
+  color: #ff4c68;
+  padding-bottom: 2%;
+}
+
+.icons:hover {
+
+  color: black;
+}
+
+.phone {
+
+   transform: rotate(20deg);
+   width: 20%;
+   position: absolute;
+   right: 30%;
+}
+
+/* feature box (text) */
+
+#features {
+
+  padding: 7% 15%;
+  position: relative;
+  background-color: #FFFFFF;
+
+}
+
+.feature-box {
+
+
+  padding: 5%;
+
+}
+
+/* Testimonials */
+
+#testimonials {
+
+  padding: 10% 15%;
+  background-color: #ff4c68;
+  color:#FFFFFF;
+}
+
+.testimonial-text {
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* h2 {
+
+  /* font-family: "Montserrat"; */
+  /* font-weight: 900; */
+  /* font-size: 2.5rem; */
+  /* line-height: 1.5; */
+  /* padding-bottom: 30px; */
+ /* }  */
+
+
+.testimonial-image {
+
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* press */
+
+#press {
+
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+
+}
+
+.press-logo {
+
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+
+  padding: 100px;
+
+}
+
+.pricing-column {
+
+    padding: 3% 2%;
+}
+
+.pricing-text {
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+
+      text-align: center;
+  }
+
+    .iphone {
+
+      position: static;
+      transform: rotate(0);
+    }
+
+}
+
+/* CTA SECTION */
+
+#cta {
+
+  background-color: #ff4c68;
+  color: #FFFFFF;
+
+}
+
+/* .cta-h3 { */
+
+  /* font-family: "Montserrat"; */
+  /* font-weight: 900; */
+  /* font-size: 2.5em; */
+  /* line-height: 1.5; */
+/* } */
+
+.download-cta {
+
+  margin: 2% 1%;
+}
+
+
+/* Footer section */
+
+#footer {
+
+  background-color: #FFFFFF;
+
+}
+
+.social-media {
+
+  padding: 2%;
+}
+
+.copyright {
+
+  padding: 0.5%;
+}
